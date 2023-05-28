@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Spinner
+            android:id="@+id/spinner_ogun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginTop="50dp" />
+
+        <Spinner
+            android:id="@+id/spinner_ogun2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginTop="50dp" />
+
+        <Button
+            android:layout_margin="50dp"
+            android:id="@+id/button_yemek_ekle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ekle" />
+        <Button
+            android:layout_margin="50dp"
+            android:id="@+id/button_hesapla"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="hesapla" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewTarih"
+            android:hint="Tarih"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:textAlignment="center"
+
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/texViewCalBilgi"
+            android:text="Sonuçlar burada gözükecek."
+            android:textStyle="italic"
+            android:textSize="24sp"
+            android:textAlignment="center"
+
+            ></TextView>
+    </LinearLayout>
+
+</FrameLayout>
